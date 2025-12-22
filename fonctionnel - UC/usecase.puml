@@ -3,8 +3,10 @@ left to right direction
 actor "Administrateur" as Admin
 
   usecase "Gérer les Utilisateurs" as UC_Users
+   usecase "Attribuer un Rôle" as UC_Roles
 
 
 Admin -- UC_Users
 
+UC_Roles .> UC_Users : <<extend>>
 @enduml
