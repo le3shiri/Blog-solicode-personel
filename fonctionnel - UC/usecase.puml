@@ -1,0 +1,10 @@
+@startuml
+left to right direction
+actor "Administrateur" as Admin
+
+  usecase "Gérer les Utilisateurs" as UC_Users
+
+
+Admin -- UC_Users
+
+@enduml
