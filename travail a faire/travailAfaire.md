@@ -6,7 +6,7 @@
 ---
 
 ## Travail à faire
-- gestion des utilisateurs 
+- gestion des articles
 
 ---
 
