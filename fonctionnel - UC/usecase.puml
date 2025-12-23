@@ -2,8 +2,8 @@
 left to right direction
 actor "Administrateur" as Admin
 
-  usecase "Gérer les Utilisateurs" as UC_Users
-   usecase "Attribuer un Rôle" as UC_Roles
+    usecase "Gérer les Articles" as UC_CRUD
+
 
 
 Admin -- UC_Users
